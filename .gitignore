@@ -1,0 +1,14 @@
+# Object files
+*.o
+
+# Executables
+main
+main.exe
+
+# my trash files
+mainJunk.c
+testPrint.c
+*.exe
+
+# my failures
+*.stackdump
