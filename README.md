@@ -25,7 +25,7 @@ make
 **Get this repository for the first time:**
 
 ```sh
-git clone https://github.com/Tempurturtul/monoceros.git
+git clone https://github.com/chaderdwins/Monoceros.git
 ```
 
 **Update your local repository:**
