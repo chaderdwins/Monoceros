@@ -1,21 +1,17 @@
-# Monoceros
+# Monoceros (UNIX)
 
 - [Compilation Instructions](#compilation-instructions)
 - [Resources](#resources)
     - [Essential Git Commands](#essential-git-commands)
     - [NCURSES](#ncurses)
 
-## Compilation Instructions
-
+## Compilation Instructions (UNIX)
 ```sh
-# Compile
-make
+# Compile game:
+gcc -o main main.c menu.c menu.h tcp_client.c tcp_client.h gamePlay.c gamePlay.h interfaces.h sprites.c sprites.h effects.c effects.h levels.c levels.h planet.c planet.h ai.c ai.h scores.c scores.h -lncursesw -lm -Wall -std=gnu99
 
-# Run game
-./main
-
-# Run server (flip3 only)
-./server
+# Compile server:
+gcc -o server tcp_server.c menu.c menu.h tcp_client.c tcp_client.h gamePlay.c gamePlay.h interfaces.h sprites.c sprites.h effects.c effects.h levels.c levels.h planet.c planet.h ai.c ai.h scores.c scores.h -lncursesw -lm -Wall -std=gnu99
 ```
 
 ## Resources
